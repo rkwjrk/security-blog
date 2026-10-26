@@ -1,0 +1,17 @@
+title: "DEADHACKER // SECURITY OPERATIONS"
+description: "Web Security · CTF · Research · Development Log"
+url: "https://rkwjrk.github.io"
+baseurl: ""
+lang: "ko-KR"
+timezone: "Asia/Seoul"
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
